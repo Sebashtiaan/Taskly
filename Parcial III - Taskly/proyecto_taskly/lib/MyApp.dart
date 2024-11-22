@@ -3,6 +3,7 @@ import 'package:proyecto_taskly/adapters/ui/HomePage.dart';
 import 'package:proyecto_taskly/adapters/ui/llenarServicio.dart';
 import 'package:proyecto_taskly/adapters/ui/mainScreen.dart';
 import 'package:proyecto_taskly/adapters/ui/peticionEspecialista.dart';
+import 'package:proyecto_taskly/adapters/ui/propuestaEspecialista.dart';
 import 'package:proyecto_taskly/adapters/ui/register.dart';
 import 'package:proyecto_taskly/adapters/ui/login.dart';
 
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
         RegisterPage.routeName: (context) => const RegisterPage(title: 'Register'),
         MyHomePage.routeName: (context) => const MyHomePage(title: 'Home'),
         Llenardatos.routeName: (context) => const Llenardatos(title: 'datos'),
-        Peticionespecialista.routeName: (context) => const Peticionespecialista(title: 'peticiones')
+        Peticionespecialista.routeName: (context) => const Peticionespecialista(title: 'peticiones'),
+        PropuestaEspecialista.routeName: (context) => const PropuestaEspecialista(title: 'propuesta')
       },
       home: const Mainscreen(title: '',),
     );
