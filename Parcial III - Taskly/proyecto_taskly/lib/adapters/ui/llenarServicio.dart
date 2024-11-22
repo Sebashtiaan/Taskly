@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proyecto_taskly/adapters/ui/HomePage.dart';
+import 'package:proyecto_taskly/adapters/ui/peticionEspecialista.dart';
 import 'package:proyecto_taskly/components/colors.dart';
 import 'package:proyecto_taskly/components/widgets.dart';
 import 'package:proyecto_taskly/size_config.dart';
@@ -183,7 +184,7 @@ class _LlenardatosState extends State<Llenardatos> {
                             altura: 60,
                             ancho: 100,
                             onTap: () {
-                              //Navigator.pushReplacementNamed(context, MyHomePage.routeName);
+                              Navigator.pushReplacementNamed(context, Peticionespecialista.routeName);
                             },
                           ),
                         ],
