@@ -227,7 +227,7 @@ class Perfil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.all(5.0),
       child: Container(
       decoration: BoxDecoration(
         color: Colors.white,
@@ -350,7 +350,7 @@ class Perfil extends StatelessWidget {
       
         
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
          
               Padding(
@@ -360,9 +360,9 @@ class Perfil extends StatelessWidget {
                     
                   },
                   child: Padding(
-                    padding: const EdgeInsets.only(left: 19.0),
+                    padding: const EdgeInsets.only(left: 10.0),
                     child: Container(
-                      width: getProportionateScreenWidth(160),
+                      width: getProportionateScreenWidth(120),
                       height: getProportionateScreenHeight(40),
                       decoration: BoxDecoration(
                         color: Colors.transparent,
@@ -383,15 +383,16 @@ class Perfil extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(width: 10,),
       
               Padding(
                 padding: const EdgeInsets.only(bottom: 10),
                 child: GestureDetector(
                   onTap: () => {},
                   child: Padding(
-                    padding: const EdgeInsets.only(right: 19.0),
+                    padding: const EdgeInsets.only(right: 10.0),
                     child: Container(
-                      width: getProportionateScreenWidth(160),
+                      width: getProportionateScreenWidth(120),
                       height: getProportionateScreenHeight(40),
                       decoration: BoxDecoration(
                         color: Colors.transparent,
